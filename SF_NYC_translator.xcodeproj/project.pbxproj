@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F855C741F2A9D1D0052DE55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F855C731F2A9D1D0052DE55 /* GoogleService-Info.plist */; };
 		0FC104801F296B99000FBDEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC1047F1F296B99000FBDEB /* AppDelegate.swift */; };
 		0FC104821F296B99000FBDEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC104811F296B99000FBDEB /* ViewController.swift */; };
 		0FC104851F296B99000FBDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC104831F296B99000FBDEB /* Main.storyboard */; };
 		0FC104871F296B99000FBDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC104861F296B99000FBDEB /* Assets.xcassets */; };
 		0FC1048A1F296B99000FBDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC104881F296B99000FBDEB /* LaunchScreen.storyboard */; };
+		0FC104921F2A518E000FBDEB /* SF_NYC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FC104911F2A518E000FBDEB /* SF_NYC.jpg */; };
+		B729B08D0FB2666755A452EA /* Pods_SF_NYC_translator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7382AF1446558E4316BE2639 /* Pods_SF_NYC_translator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F8089DF1F2AB86A00E527E1 /* SF_NYC_translator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SF_NYC_translator.entitlements; sourceTree = "<group>"; };
+		0F855C731F2A9D1D0052DE55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0FC1047C1F296B99000FBDEB /* SF_NYC_translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SF_NYC_translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC1047F1F296B99000FBDEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FC104811F296B99000FBDEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,10 @@
 		0FC104861F296B99000FBDEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC104891F296B99000FBDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FC1048B1F296B99000FBDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC104911F2A518E000FBDEB /* SF_NYC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SF_NYC.jpg; path = ../../../../../SF_NYC.jpg; sourceTree = "<group>"; };
+		163D03D1528FC7F3A3C114BF /* Pods-SF_NYC_translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_NYC_translator.release.xcconfig"; path = "Pods/Target Support Files/Pods-SF_NYC_translator/Pods-SF_NYC_translator.release.xcconfig"; sourceTree = "<group>"; };
+		7382AF1446558E4316BE2639 /* Pods_SF_NYC_translator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SF_NYC_translator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4D8D105C6C6687AC7A89CD /* Pods-SF_NYC_translator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF_NYC_translator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SF_NYC_translator/Pods-SF_NYC_translator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +38,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B729B08D0FB2666755A452EA /* Pods_SF_NYC_translator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0269471C89B8F145B3CA82CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7382AF1446558E4316BE2639 /* Pods_SF_NYC_translator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0FC104731F296B99000FBDEB = {
 			isa = PBXGroup;
 			children = (
 				0FC1047E1F296B99000FBDEB /* SF_NYC_translator */,
 				0FC1047D1F296B99000FBDEB /* Products */,
+				7E2D8A6CE0513CB16FA30D32 /* Pods */,
+				0269471C89B8F145B3CA82CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,26 @@
 		0FC1047E1F296B99000FBDEB /* SF_NYC_translator */ = {
 			isa = PBXGroup;
 			children = (
+				0F8089DF1F2AB86A00E527E1 /* SF_NYC_translator.entitlements */,
+				0F855C731F2A9D1D0052DE55 /* GoogleService-Info.plist */,
 				0FC1047F1F296B99000FBDEB /* AppDelegate.swift */,
 				0FC104811F296B99000FBDEB /* ViewController.swift */,
 				0FC104831F296B99000FBDEB /* Main.storyboard */,
 				0FC104861F296B99000FBDEB /* Assets.xcassets */,
+				0FC104911F2A518E000FBDEB /* SF_NYC.jpg */,
 				0FC104881F296B99000FBDEB /* LaunchScreen.storyboard */,
 				0FC1048B1F296B99000FBDEB /* Info.plist */,
 			);
 			path = SF_NYC_translator;
+			sourceTree = "<group>";
+		};
+		7E2D8A6CE0513CB16FA30D32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4D8D105C6C6687AC7A89CD /* Pods-SF_NYC_translator.debug.xcconfig */,
+				163D03D1528FC7F3A3C114BF /* Pods-SF_NYC_translator.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FC1048E1F296B99000FBDEB /* Build configuration list for PBXNativeTarget "SF_NYC_translator" */;
 			buildPhases = (
+				713728C2D843E37019426925 /* [CP] Check Pods Manifest.lock */,
 				0FC104781F296B99000FBDEB /* Sources */,
 				0FC104791F296B99000FBDEB /* Frameworks */,
 				0FC1047A1F296B99000FBDEB /* Resources */,
+				3B725B6C7B625674E56BBEBE /* [CP] Embed Pods Frameworks */,
+				C1BB089261A59894D940369F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +131,11 @@
 				TargetAttributes = {
 					0FC1047B1F296B99000FBDEB = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,11 +164,61 @@
 			files = (
 				0FC1048A1F296B99000FBDEB /* LaunchScreen.storyboard in Resources */,
 				0FC104871F296B99000FBDEB /* Assets.xcassets in Resources */,
+				0F855C741F2A9D1D0052DE55 /* GoogleService-Info.plist in Resources */,
 				0FC104851F296B99000FBDEB /* Main.storyboard in Resources */,
+				0FC104921F2A518E000FBDEB /* SF_NYC.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B725B6C7B625674E56BBEBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SF_NYC_translator/Pods-SF_NYC_translator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		713728C2D843E37019426925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BB089261A59894D940369F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SF_NYC_translator/Pods-SF_NYC_translator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0FC104781F296B99000FBDEB /* Sources */ = {
@@ -271,10 +361,13 @@
 		};
 		0FC1048F1F296B99000FBDEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4D8D105C6C6687AC7A89CD /* Pods-SF_NYC_translator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SF_NYC_translator/SF_NYC_translator.entitlements;
 				DEVELOPMENT_TEAM = PJU47SA62K;
 				INFOPLIST_FILE = SF_NYC_translator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SF-NYC-translator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,10 +378,13 @@
 		};
 		0FC104901F296B99000FBDEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163D03D1528FC7F3A3C114BF /* Pods-SF_NYC_translator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SF_NYC_translator/SF_NYC_translator.entitlements;
 				DEVELOPMENT_TEAM = PJU47SA62K;
 				INFOPLIST_FILE = SF_NYC_translator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SF-NYC-translator";
 				PRODUCT_NAME = "$(TARGET_NAME)";

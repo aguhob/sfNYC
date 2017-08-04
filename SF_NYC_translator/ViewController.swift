@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseInstanceID
+import FirebaseMessaging
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var map: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        Messaging.messaging().subscribe(toTopic: "")
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +29,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func SfNYCPressed(_ sender: Any)
+    
+    {
+    map.isHidden = false
+    
+    }
 }
 
